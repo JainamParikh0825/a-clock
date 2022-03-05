@@ -87,7 +87,7 @@ const twentyFourHourTime = (event) => {
 }
 
 // Event Listener for 24 Hour Time
-twentyFourHourBtn.addEventListener("click", isTwentyFourHourTime);
+twentyFourHourBtn.addEventListener("click", twentyFourHourTime);
 
 setInterval(() => {
     getTime();
