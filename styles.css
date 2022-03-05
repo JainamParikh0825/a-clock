@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Raleway:wght@200;400;700;900&display=swap');
+:root{
+    --primary-color: #fff;
+    --secondary-color: #019267;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #323232;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.quote-section{
+    margin-top: 1.5rem;
+}
+
+.quote-section p::before{
+    content: url("https://img.icons8.com/plasticine/36/000000/quote-left.png");
+    position: relative;
+    top: 0px;
+    color: var(--primary-color);
+    padding: 5px;
+}
+
+.quote-section p::after{
+    content: url("https://img.icons8.com/plasticine/36/000000/quote-right.png");
+    position: relative;
+    top: 0px;
+    color: var(--primary-color);
+    padding: 5px;
+}
+
+.quote-section p{
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.clock-section{
+    margin-top: 2rem;
+    display: flex;
+    height: 400px;
+}
+
+.time{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 380px;
+    font-family: 'Graduate', cursive;
+    color: var(--primary-color);
+}
+
+.clock-section .colons{
+    flex: 0.2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colons div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    margin: 30px 0;
+}
+
+.date-section{
+    margin-top: 1rem;
+}
+
+.date-section p{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid var(--secondary-color);
+}
+
+footer.container{
+    margin-top: 4rem;
+    /* background-color: #019267; */
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+    color: var(--primary-color);
+}
